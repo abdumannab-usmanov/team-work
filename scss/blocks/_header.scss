@@ -1,0 +1,155 @@
+.header-site {
+    background-color: #49BCF1;
+    padding: 34px 0;
+    // position: relative;
+}
+
+.header-site__inner {
+    display: flex;
+    align-items: center;
+}
+
+.header-site__logo{
+    width: 100%;
+    max-width: 170px;
+    max-height: 33px;
+    margin-right: auto;
+}
+
+.header-site__img{
+    width: 100%;
+}
+
+
+
+
+.menu {
+    
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu__item {
+}
+
+.menu__item + .menu__item{
+    margin-left: 47px;
+}
+
+.menu__link {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu__item--contact {
+}
+
+.menu__link--contact {
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #24303E;
+    padding: 16px 31px;
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    transition: all 0.4s ease
+}
+
+.menu__link--contact:hover{
+    color: #FFFFFF;
+    background-color: #77CDF5;
+    
+}
+
+.burger-btn{
+    display: none;
+    font-size: 24px;
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+
+@media only screen and (max-width:521px){
+    
+    .header-site__logo{
+        width: 100%;
+        max-width: 123px;
+        max-height: 24px;
+        margin-right: auto;
+    }
+    
+    .menu {
+        display: none;
+        position: relative;
+        
+        &-open{
+            position: absolute;
+            top: 120px;  // 100px
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 85%;
+            padding: 39px 95px;
+            display: block;    //block
+            background-color:  #FFFFFF;
+        }
+        
+    }
+    
+    .menu__list{
+        width: 100%;
+        flex-direction: column;
+       
+        
+        &::before{
+            position: absolute;
+            display: block;
+            top: -24px;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-top: 12px solid transparent; 
+            border-right: 12px solid #FFFFFF;
+            border-bottom: 12px solid #FFFFFF;
+            border-left: 12px solid transparent;
+            content: "";
+        }
+        
+    }
+    
+    .menu__item + .menu__item{
+        margin-left: 0;
+        margin-top: 32px;
+    }
+    
+    .menu__link{
+        font-size: 20px;
+        color: #808397;
+    }
+    
+    .menu__link--contact {
+        font-weight: 700;
+        font-size: 15px;
+        color: #24303E;
+        background: #FBD600;
+        border-radius: 28px
+    }
+    
+    .burger-btn{
+        display: block;
+    }
+    
+}
