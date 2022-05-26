@@ -434,6 +434,12 @@ img {
   padding: 0 20px;
 }
 
+.container-big {
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
 .header-site {
   background-color: #49BCF1;
   padding: 34px 0;
@@ -634,6 +640,258 @@ img {
     font-size: 35px;
     line-height: 49px;
     letter-spacing: 6.25px;
+  }
+}
+
+.brand__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brand__transform {
+  width: 100%;
+  max-width: 50%;
+  padding: 158px 110px 157px 165px;
+}
+
+img {
+  width: 100%;
+  max-width: 50%;
+}
+
+.brand__title {
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: -0.285714px;
+  color: #24303E;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.brand__text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.128571px;
+  color: #808397;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.brand__link {
+  font-family: "Fraunces", "Aria", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24303E;
+  text-decoration: none;
+  position: relative;
+}
+
+.brand__link::after {
+  position: absolute;
+  z-index: -1;
+  left: 0%;
+  right: 0%;
+  top: 60%;
+  bottom: 0%;
+  background: #FAD400;
+  opacity: 0.25;
+  border-radius: 28px;
+  content: "";
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.brand__link:hover::after {
+  background-color: #FAD400;
+  opacity: 1;
+}
+
+.brand__audience {
+  width: 100%;
+  max-width: 50%;
+  padding: 157px 165px 157px 110px;
+}
+
+.audience__inner {
+  width: 100%;
+  max-width: 445px;
+}
+
+.audience__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: -0.285714px;
+  color: #24303E;
+  margin-top: 0;
+  margin-bottom: 33px;
+}
+
+.audience__text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #808397;
+}
+
+.audience__link {
+  font-family: "Fraunces", "Aria", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24303E;
+  text-decoration: none;
+  position: relative;
+}
+
+.audience__link::after {
+  position: absolute;
+  z-index: -1;
+  left: 0%;
+  right: 0%;
+  top: 60%;
+  bottom: 0%;
+  background: #FE7766;
+  opacity: 0.25;
+  border-radius: 28px;
+  content: "";
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.audience__link:hover::after {
+  background-color: #FE7766;
+  opacity: 1;
+}
+
+.brand__cherry {
+  width: 100%;
+  max-width: 50%;
+  padding: 398px 190px 59px 190px;
+  background-image: url("../img/cherry.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cherry__inner {
+  width: 100%;
+  max-width: 339px;
+  text-align: center;
+}
+
+.cherry__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 35px;
+  color: #24554A;
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+
+.cherry__text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  color: #3E7467;
+}
+
+.brand__cherry--orange {
+  background-image: url("../img/orrange.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 521px) {
+  .brand__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .brand__transform {
+    max-width: 100%;
+    padding: 64px 24px;
+    text-align: center;
+  }
+  .brand__content {
+    width: 100%;
+    max-width: 327px;
+    margin: 0 auto;
+  }
+  .brand__title {
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 24px;
+    margin-bottom: 32px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .brand__audience {
+    max-width: 100%;
+    padding: 64px 24px;
+    text-align: center;
+  }
+  .audience__inner {
+    width: 100%;
+    max-width: 445px;
+    margin: 0 auto;
+  }
+  .audience__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .audience__text {
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+  .brand__cherry {
+    max-width: 100%;
+    padding: 398px 24px 59px 24px;
+    background-image: url("../img/cherry-mobile.png");
+  }
+  .cherry__inner {
+    width: 100%;
+    max-width: 339px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .cherry__title {
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    color: #24554A;
+    margin-top: 0;
+    margin-bottom: 27px;
+  }
+  .cherry__text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #3E7467;
+  }
+  .brand__cherry--orange {
+    background-image: url("../img/orrange-mobile.png");
   }
 }
 /*# sourceMappingURL=main.css.map */
