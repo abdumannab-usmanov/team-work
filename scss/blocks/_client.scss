@@ -1,0 +1,69 @@
+.client{
+  padding: 160px 0;
+}
+
+.client__title{
+  font-family: 'Fraunces 9pt Soft';
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #A7AAAD;
+  margin-bottom: 81px;
+}
+
+.client__list{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+}
+
+.client__item{
+  width: 350px;
+  align-items: center;
+}
+
+.client__img{
+  width: 72px;
+  height: 72px;
+  margin-bottom: 58px;
+  margin-left: 130px;
+}
+
+.client__comment{
+  font-family: 'Barlow';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.128571px;
+  color: #5B636D;
+  margin: 0;
+  margin-bottom: 69px;
+}
+
+.client__name{
+  font-family: 'Fraunces 9pt Soft';
+  display: block;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.128571px;
+  color: #24303E;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+.client__text{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #A7AAAD;
+  margin: 0;
+}
+
