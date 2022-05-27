@@ -651,7 +651,7 @@ img {
   padding: 158px 110px 157px 165px;
 }
 
-.brand__pic {
+.brand__picture, .brand__pic {
   width: 100%;
   max-width: 50%;
 }
