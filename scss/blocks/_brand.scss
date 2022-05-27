@@ -9,7 +9,10 @@
     padding: 158px 110px 157px 165px;
 }
 
-img{
+
+
+
+.brand__pic{
     width: 100%;
     max-width: 50%;
 }
@@ -182,6 +185,10 @@ img{
         text-align: center;
  
     }
+
+    .brand__picture{
+        order: -1;
+    }
     
     .brand__content{
         width: 100%;
@@ -198,10 +205,9 @@ img{
     }
     
     
-    img{
+    .brand__picture, .brand__pic{
         max-width: 100%;
     }
-    
     
     .brand__audience {
         max-width: 100%;
