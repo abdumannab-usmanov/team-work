@@ -1,11 +1,25 @@
 .image__box{
-  max-width: 1440px;
   display: flex;
   align-items: center;
   margin: 0 auto;
 }
 
 .image__img{
-  width: 360px;
+  width: 25%;
   height: 470px;
+}
+
+
+@media only screen and(max-width:521px){
+  .image__box{
+    flex-wrap: wrap;
+  }
+  .image__img{
+    width: 50%;
+    height: 188px;
+  }
+}
+
+@media only screen and(max-width:351px){
+
 }
