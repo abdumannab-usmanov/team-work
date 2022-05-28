@@ -909,6 +909,7 @@ img {
   letter-spacing: -0.128571px;
   color: #5B636D;
   margin: 0;
+  padding: 0;
   margin-bottom: 69px;
 }
 
@@ -952,7 +953,7 @@ img {
   }
 
   .client__item {
-    width: 327px;
+    max-width: 327px;
     margin: 64px auto;
   }
 
@@ -962,6 +963,11 @@ img {
 
   .client__comment {
     margin-bottom: 32px;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .client__item {
+    width: 100%;
   }
 }
 .image__box {
