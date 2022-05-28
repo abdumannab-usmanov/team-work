@@ -67,3 +67,33 @@
   margin: 0;
 }
 
+@media only screen and(max-width:521px){
+  .client{
+    padding: 64px 0 20px;
+  }
+
+  .client__title{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    margin: 0;
+  }
+
+  .client__list{
+    display: block;
+  }
+
+  .client__item{
+    width: 327px;
+    margin: 64px auto;
+  }
+
+  .client__img{
+    margin-bottom: 32px;
+  }
+  .client__comment{
+    margin-bottom: 32px;
+  }
+}
+
+
