@@ -21,12 +21,6 @@
 }
 
 
-
-
-.menu {
-    
-}
-
 .menu__list {
     display: flex;
     align-items: center;
@@ -35,8 +29,6 @@
     list-style: none;
 }
 
-.menu__item {
-}
 
 .menu__item + .menu__item{
     margin-left: 47px;
@@ -50,8 +42,7 @@
     text-decoration: none;
 }
 
-.menu__item--contact {
-}
+
 
 .menu__link--contact {
     display: block;
